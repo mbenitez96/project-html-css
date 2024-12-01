@@ -1,0 +1,139 @@
+ body { 
+    margin: 0px; 
+    background-color: rgb(25,26,29); 
+    font-family: 'Roboto', sans-serif; 
+} 
+
+/*HEADER WRAPPER*/
+
+.header-wrapper { 
+    height: 75px; 
+    padding-left: 5px; 
+    background-color: #000000; 
+    color: #ffffff; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+
+.header-wrapper > .nav-wrapper { 
+    width: 550px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+
+.header-wrapper > .nav-wrapper > .logo { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+
+.header-wrapper > .nav-wrapper > .logo > img { 
+    height: 30px; 
+    width: auto; 
+    margin-left: 20px;
+} 
+
+.header-wrapper > .nav-wrapper > .links-wrapper { 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    row-gap: 2px; 
+    justify-content: left; 
+    align-items: center; 
+    width: 1000px; 
+    padding-left: 50px;
+} 
+
+.header-wrapper > .nav-wrapper > .links-wrapper > .nav-link-header { 
+    font-size: 0.9em; 
+    font-weight: 600;
+    color: rgb(235, 225, 115); 
+    text-transform: uppercase; 
+} 
+
+.header-wrapper > .nav-wrapper > .links-wrapper > .nav-links { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+
+.header-wrapper > .nav-wrapper > .links-wrapper > .nav-links a { 
+    text-decoration: none; 
+    color: #ffffff; 
+    font-weight: 600; 
+    transition: 0.5s; 
+} 
+
+.header-wrapper > .nav-wrapper > .spark-wrapper { 
+    color: rgb(155, 155, 155); 
+    width: 80px; 
+    height: 40px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-end;
+    padding-left: 20px; 
+} 
+
+.header-wrapper > .nav-wrapper > .spark-wrapper > .spark-chevron-down i { 
+    padding-left: 15px;
+    font-size: 0.8em; 
+} 
+
+.header-wrapper > .buttons-wrapper { 
+    padding-right: 10px; 
+    padding-left: 10px; 
+    width: 400px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+
+.header-wrapper > .buttons-wrapper > .createlog-button { 
+    width: 100px; 
+    height: 48px; 
+    padding: 5px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: #ffffff; 
+    font-size: 1.1em; 
+    background-color: rgb(55, 56, 63); 
+    border: none; 
+    border-radius: 3px; 
+} 
+
+.header-wrapper > .buttons-wrapper > .createlog-button > .button-chevron { 
+    padding-left: 8px; 
+    padding-top: 3px; 
+    align-self: center; 
+    font-size: 1em; 
+    color: rgb(1, 212, 115); 
+} 
+
+.header-wrapper > .buttons-wrapper > .search-button { 
+    width: 50px; 
+    height: 48px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: rgb(122, 124, 140); 
+    font-weight: 500; 
+    font-size: 1.5em; 
+    background-color: transparent; 
+    border: none; 
+    border-radius: 3px; 
+} 
+
+.header-wrapper > .buttons-wrapper > .createlog-button:focus, .header-wrapper > .buttons-wrapper > .search-button:focus { 
+    outline: none; 
+} 
+
+.header-wrapper > .buttons-wrapper > .createlog-button:hover { 
+    background-color: #777777; 
+} 
+
+.header-wrapper > .buttons-wrapper > .search-button:hover { 
+    color: #888888; 
+} 
+

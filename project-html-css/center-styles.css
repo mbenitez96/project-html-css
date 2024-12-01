@@ -1,0 +1,109 @@
+.center-section {
+    width: 100%; 
+    height: 500px; 
+    background-color: rgb(40, 42, 48); 
+    color: #cccccc; 
+    display: grid; 
+    grid-template-columns: 750px auto; 
+} 
+
+.center-section > .content-wrapper { 
+    width: 650px; 
+    padding: 60px 50px; 
+} 
+
+.center-section > .content-wrapper > .text-wrapper > .content-first-paragraph { 
+    line-height: 1.15; 
+    font-size: 2em; 
+    font-weight: 300; 
+} 
+    
+.center-section > .content-wrapper > .text-wrapper > .content-first-paragraph > .highlighted-text { 
+    font-weight: 700; 
+    color: white; 
+} 
+
+.center-section > .content-wrapper > .text-wrapper > .content-second-paragraph { 
+    line-height: 1.25; 
+    font-size: 2em; 
+    font-weight: 300; 
+    padding: 20px 0px; 
+    color: #999999; 
+} 
+
+.center-section > .content-wrapper > .buttons-wrapper { 
+    display: grid; 
+    grid-template-columns: auto auto; 
+    justify-content: left; 
+    align-items: center; 
+    column-gap: 20px; 
+} 
+
+.center-section > .content-wrapper > .buttons-wrapper > .button-wrapper { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.center-section > .content-wrapper > .buttons-wrapper > .button-wrapper > .sign-free { 
+    color: #000000; 
+    background-color: rgb(1, 212, 115); 
+    border: none; 
+    border-radius: 3px; 
+    width: 225px; 
+    height: 60px; 
+    font-size: 1.5em; 
+} 
+
+.center-section > .content-wrapper > .buttons-wrapper > .button-wrapper > .learn-more { 
+    color: #ffffff; 
+    background-color: #000000; 
+    border: none; 
+    border-radius: 3px; 
+    width: 175px; 
+    height: 60px; 
+    font-size: 1.5em; 
+} 
+
+.center-section > .content-wrapper > .buttons-wrapper > .button-wrapper > .sign-up-free:focus, .body-wrapper > .content-wrapper > .buttons-wrapper > .button-wrapper > .learn-more:focus { 
+    outline: none; 
+} 
+
+.center-section > .project-wrapper { 
+    padding-top: 60px; 
+    height: 409px; 
+} 
+
+.center-section > .project-wrapper > .label-wrapper { 
+    padding-left: 10px; 
+} 
+
+.center-section > .project-wrapper > .label-wrapper > .label { 
+    color: #ffffff; 
+} 
+
+.center-section > .project-wrapper > .label-wrapper > .label > .blue-link { 
+    text-decoration: none; 
+    color: rgb(0, 230, 245); 
+} 
+
+.center-section > .project-wrapper > .project-image-wrapper { 
+    width: 100%; 
+    height: 100%; 
+    padding-top: 8px; 
+    contain: strict; 
+} 
+
+.center-section > .project-wrapper > .project-image-wrapper > .project-image-container { 
+    margin-left: 8px; 
+    width: fit-content; 
+    padding: 0px; 
+    box-shadow: -5px 5px 3px 0px rgba(0,0,0,.2); 
+} 
+
+.center-section > .project-wrapper > .project-image-wrapper > .project-image-container > .project-image { 
+    width: auto; 
+    height: 406px; 
+    max-height: 100%; 
+    margin-bottom: -4px; 
+} 
